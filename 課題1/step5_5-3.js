@@ -7,7 +7,7 @@ var fruits = [
   {name: "モモ", price: 350}
 ]
 
-for (var i = 0; i<fruits.length; i++){
+for (var i = 0; i < fruits.length; i++){
   if (fruits[i].price >= 300){
     console.log(fruits[i].name);
   }

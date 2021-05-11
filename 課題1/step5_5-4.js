@@ -8,7 +8,7 @@ var fruits = [
 ]
 
 var sumPrice = 0;
-for (var i = 0; i<fruits.length; i++){
+for (var i = 0; i < fruits.length; i++){
   sumPrice = sumPrice + fruits[i].price;
 }
 console.log(sumPrice);
